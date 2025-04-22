@@ -29,8 +29,8 @@ public class EmployeeController {
 		return es.insertListOfObject(e1);
 	}
 	
-	@GetMapping(value="/getlistofemployee")
-	public List<EmployeeEntity> getAllObject(){
+	@GetMapping(value="/getlistofemployeeobject")
+	public List<EmployeeEntity> getAllObjects(){
 		return es.getAllObject();
 	}
 	
